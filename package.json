@@ -1,0 +1,21 @@
+{
+  "name": "lessonsreports",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./dist/server.js",
+    "dev": " \"nodemon ./src/server.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.1",
+    "express": "^4.18.2",
+    "path": "^0.12.7",
+    "pg": "^8.11.0",
+    "sequelize": "^6.31.1"
+  }
+}
